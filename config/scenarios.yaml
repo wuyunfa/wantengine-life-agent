@@ -1,0 +1,14 @@
+default:
+  pop_size: 12
+  ticks: 60
+stress_comm:
+  pop_size: 16
+  ticks: 80
+  decay_boost:
+    safety: 1.4
+    knowledge: 1.2
+low_energy:
+  pop_size: 12
+  ticks: 70
+  init_override:
+    energy: 55
