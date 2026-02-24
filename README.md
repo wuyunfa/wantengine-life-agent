@@ -65,10 +65,12 @@ python sim/run_demo.py
 
 ## Roadmap
 
-- [ ] Multi-agent simulation and population selection
-- [ ] Visualization dashboard (state curves / lifecycle events)
-- [ ] Reproducible benchmark suite
-- [ ] Whitepaper and paper-ready experiment tables
+See `ROADMAP.md` for staged milestones.
+
+## Language
+
+- English: `README.md`
+- 中文：`README.zh-CN.md`
 
 ## License
 

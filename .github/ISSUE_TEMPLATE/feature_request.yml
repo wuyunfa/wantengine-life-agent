@@ -1,0 +1,21 @@
+name: Feature Request
+description: Suggest an enhancement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: value
+    attributes:
+      label: Value proposition
+      placeholder: Why is this feature important?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed design
+      placeholder: How should it work?
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and risks
+      placeholder: Affected modules, risks, migration notes
