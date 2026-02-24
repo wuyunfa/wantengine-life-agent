@@ -22,12 +22,20 @@ src/life_agent/
   attachment.py   # Attachment/exclusivity routing
   eidolon.py      # Genetic inheritance and mutation
   agent.py        # Agent core and orchestration
+  want_engine/
+    state.py      # Boredom/curiosity/energy/fatigue state model
+    taskgen.py    # Template-based task generation engine
+    executor.py   # OpenClaw-aware executor with fallback
+    loop.py       # End-to-end lifecycle loop
 sim/
-  run_demo.py     # Simulation demo
+  run_demo.py
+  run_multi_agent.py
+  run_want_engine_demo.py
 config/
-  default.yaml    # Runtime config
+  default.yaml
+  scenarios.yaml
 pet/
-  desktop_pet_wantengine.py  # optional desktop pet UI
+  desktop_pet_wantengine.py
 ```
 
 ## Quick Start
@@ -36,11 +44,12 @@ pet/
 python -m pip install pyyaml
 python sim/run_demo.py
 python sim/run_multi_agent.py
+python sim/run_want_engine_demo.py
 ```
 
-Multi-agent metrics will be exported to:
-
+Outputs:
 - `outputs/multi_agent_metrics.csv`
+- `outputs/want_engine_v02_log.csv`
 
 ## Core Modules
 
