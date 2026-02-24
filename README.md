@@ -64,6 +64,8 @@ sim/
   run_demo.py
   run_multi_agent.py
   run_want_engine_demo.py
+  run_evolution_lab_v1.py
+  run_multi_agent_collab_demo.py
 
 config/
   default.yaml
@@ -73,6 +75,8 @@ tests/
   test_smoke.py
   test_multi_agent.py
   test_want_engine_v02.py
+  test_evolution_lab_v1.py
+  test_multi_agent_collab.py
 
 pet/
   desktop_pet_wantengine.py
@@ -89,6 +93,8 @@ python -m pip install pytest ruff
 python sim/run_demo.py
 python sim/run_multi_agent.py
 python sim/run_want_engine_demo.py
+python sim/run_evolution_lab_v1.py
+python sim/run_multi_agent_collab_demo.py
 pytest -q
 ```
 
@@ -96,6 +102,7 @@ Outputs:
 - `outputs/multi_agent_metrics.csv`
 - `outputs/want_engine_v02_log.csv`
 - `outputs/evolution_lab_v1.csv`
+- `outputs/multi_agent_collab_round.json`
 
 ---
 
