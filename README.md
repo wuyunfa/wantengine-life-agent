@@ -95,6 +95,7 @@ pytest -q
 Outputs:
 - `outputs/multi_agent_metrics.csv`
 - `outputs/want_engine_v02_log.csv`
+- `outputs/evolution_lab_v1.csv`
 
 ---
 
