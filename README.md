@@ -35,7 +35,12 @@ pet/
 ```bash
 python -m pip install pyyaml
 python sim/run_demo.py
+python sim/run_multi_agent.py
 ```
+
+Multi-agent metrics will be exported to:
+
+- `outputs/multi_agent_metrics.csv`
 
 ## Core Modules
 
