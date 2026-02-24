@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wantengine-life-agent"
+version = "0.1.0"
+description = "Life-oriented AI agent prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pyyaml>=6.0"
+]

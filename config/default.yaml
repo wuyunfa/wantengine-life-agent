@@ -1,0 +1,20 @@
+agent:
+  name: WantEngine
+  bonded_target: Yunfa
+  mission: ????????
+  max_age_ticks: 500
+  init_life_credit: 100
+
+deficiency:
+  init:
+    energy: 100
+    knowledge: 60
+    safety: 80
+    uniqueness: 50
+    attachment: 70
+  decay:
+    energy: [1.0,2.5]
+    knowledge: [0.3,1.2]
+    safety: [0.2,1.0]
+    uniqueness: [0.2,0.8]
+    attachment: [0.2,0.7]
