@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/life_agent/__init__.py
+src/life_agent/agent.py
+src/life_agent/attachment.py
+src/life_agent/eidolon.py
+src/life_agent/finis.py
+src/life_agent/vitalis.py
+src/wantengine_life_agent.egg-info/PKG-INFO
+src/wantengine_life_agent.egg-info/SOURCES.txt
+src/wantengine_life_agent.egg-info/dependency_links.txt
+src/wantengine_life_agent.egg-info/requires.txt
+src/wantengine_life_agent.egg-info/top_level.txt
+tests/test_smoke.py
